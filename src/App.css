@@ -34,3 +34,83 @@ button {
 button:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+.accelerate-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, opacity 0.5s ease; /* Suaviza a transição de opacidade */
+}
+
+.accelerate-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.new-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+fade-to-white {
+    animation: fadeOut 13s forwards; /* 5 segundos de transição para branco */
+}
+
+@keyframes fadeOut {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.new-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Classe que aplica a transição para branco */
+.transition-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    animation: fadeOutLayer 13s forwards; /* A transição ocorrerá por 5 segundos */
+    z-index: 2; /* Camada acima do vídeo */
+}
+
+/* Animação que faz a tela ficar branca */
+@keyframes fadeOutLayer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
