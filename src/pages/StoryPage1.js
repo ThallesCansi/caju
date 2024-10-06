@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import DialogueBox from "../components/DialogueBox";
 import ContinueButton from "../components/ContinueButton";
@@ -9,8 +9,17 @@ export default function StoryPage1() {
     const [nickname, setNickname] = useState("");
     const navigate = useNavigate();
 
+    // Ao carregar a página, verifica se o nickname está no localStorage e preenche o estado
+    useEffect(() => {
+        const storedNickname = localStorage.getItem("nickname");
+        if (storedNickname) {
+            setNickname(storedNickname); // Preenche o nickname com o valor armazenado, se houver
+        }
+    }, []);
+
     const handleNavigation = () => {
-        const name = nickname || "Caju";
+        const name = nickname || "Caju"; // Usa "Caju" como valor padrão se o campo estiver vazio
+        localStorage.setItem("nickname", name); // Armazena o nickname no localStorage
         navigate("/caju/story2", { state: { nickname: name } });
     };
 
@@ -29,7 +38,13 @@ export default function StoryPage1() {
                 <p>Enter your nickname:</p>
             </div>
             <div className="input-container1">
-                <input maxLength={20} type="text" placeholder="Your nickname" value={nickname} onChange={(e) => setNickname(e.target.value)} />
+                <input
+                    maxLength={20}
+                    type="text"
+                    placeholder="Your nickname"
+                    value={nickname}
+                    onChange={(e) => setNickname(e.target.value)}
+                />
             </div>
             <ContinueButton onClick={handleNavigation} />
         </div>

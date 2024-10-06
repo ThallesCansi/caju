@@ -1,0 +1,52 @@
+.story-container6 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../public/images/Story6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.select-planet {
+    position: absolute;
+    background-image: url("../../public/images/Story6-1.png");
+    z-index: 4;
+    width: 300px;
+    height: 50px;
+    top: 12.5%;
+    left: 8%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.button-return {
+    position: absolute;
+    background-image: url("../../public/images/Story6-2.png");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    height: 70px;  /* Altura exata do botão */
+    top: 88%;      /* Posição do botão */
+    left: -0%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}

@@ -9,10 +9,12 @@ import "./StoryPage2.css";
 export default function StoryPage2() {
     const navigate = useNavigate();
     const location = useLocation();
-    const { nickname } = location.state || { nickname: "Caju" };
+
+    // Recupera o nickname do estado da navegação ou do localStorage
+    const nickname = location.state?.nickname || localStorage.getItem("nickname") || "Caju";
 
     const handleNavigation = () => {
-        navigate("/story3");
+        navigate("/caju/story3");
     };
 
     const handleBack = () => {
@@ -29,6 +31,7 @@ export default function StoryPage2() {
                     </p>
                 }
                 left="15%"
+                top="7%"
             />
             <ContinueButton onClick={handleNavigation} />
             <BackButton onClick={handleBack} />

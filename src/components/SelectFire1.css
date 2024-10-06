@@ -1,0 +1,12 @@
+/* Definindo o contêiner do quadro (frame) */
+.frame-container {
+    position: absolute; /* Permite posicionamento absoluto dos filhos */
+    top: 7.7%;
+    left: 5.3%;
+    width: 1135px;  /* Defina o tamanho do frame */
+    height: 579px; /* Defina o tamanho do frame */
+    background-size: contain; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto; /* Centraliza o frame */
+}

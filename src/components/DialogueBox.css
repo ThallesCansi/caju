@@ -1,4 +1,5 @@
 .dialogue-box {
+    z-index: 5;
     font-family: "Gagalin", sans-serif;
     position: absolute;
     margin: 0;

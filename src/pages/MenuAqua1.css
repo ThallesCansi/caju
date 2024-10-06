@@ -1,0 +1,122 @@
+.menu-aqua-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../public/images/MenuFire1-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-aqua1 {
+    position: absolute;
+    background-image: url("../../public/images/MenuFire1-1.png");
+    z-index: 4;
+    width: 950px; /* Largura exata do botão */
+    height: 1500px;  /* Altura exata do botão */
+    left: 10%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
+
+.button-continue-aqua1 {
+    position: absolute;
+    background-image: url("../../public/images/MenuFire1.png");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    height: 70px;  /* Altura exata do botão */
+    top: 88%;      /* Posição do botão */
+    left: 77%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
+
+.button-return-aqua1 {
+    position: absolute;
+    background-image: url("../../public/images/Story6-2.png");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    height: 70px;  /* Altura exata do botão */
+    top: 88%;      /* Posição do botão */
+    left: -0%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
+
+.planet-aqua-gif1 {
+    position: absolute;
+    background-image: url("../../public/images/MenuAqua1.gif");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    top: 47%;      /* Posição do botão */
+    height: 280px;  /* Altura exata do botão */
+    left: 7%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
+
+.planet-aqua-gif2 {
+    position: absolute;
+    background-image: url("../../public/images/MenuAqua1.gif");
+    z-index: 4;
+    width: 600px; /* Largura exata do botão */
+    top: -8%;      /* Posição do botão */
+    height: 800px;  /* Altura exata do botão */
+    left: 59%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}

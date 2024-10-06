@@ -1,0 +1,57 @@
+.scratch-aqua-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    border: none; /* Remove a borda do iframe */
+    width: 100%;
+    height: 100%;
+}
+
+.button-continue-scratch1 {
+    position: absolute;
+    background-image: url("../../public/images/MenuFire1.png");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    height: 70px;  /* Altura exata do botão */
+    top: 88%;      /* Posição do botão */
+    left: 77%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
+
+.button-return-scratch1 {
+    position: absolute;
+    background-image: url("../../public/images/Story6-2.png");
+    z-index: 4;
+    width: 300px; /* Largura exata do botão */
+    height: 70px;  /* Altura exata do botão */
+    top: 88%;      /* Posição do botão */
+    left: -0%;     /* Posição do botão */
+    
+    /* Ajuste de background */
+    background-size: contain; /* Faz a imagem se ajustar dentro da área sem cortar */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+    /* Opções de layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Overflow não é mais necessário */
+}
