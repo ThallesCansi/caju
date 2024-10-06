@@ -1,0 +1,42 @@
+.planet-container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.planet {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: spin 10s linear infinite;
+}
+
+.planet1 {
+    background-color: blue;
+    animation-duration: 10s;
+}
+
+.planet2 {
+    background-color: green;
+    animation-duration: 15s;
+}
+
+.planet3 {
+    background-color: red;
+    animation-duration: 12s;
+}
+
+.planet4 {
+    background-color: red;
+    animation-duration: 12s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,53 @@
+.enter-nickname1 {
+    font-family: "Gagalin", sans-serif;
+    font-size: 32px;
+    position: absolute;
+    margin: 0;
+    top: 67%;
+    left: 24%;
+    text-align: center;
+
+}
+
+.story-container1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../public/images/Story1.png"); /* Caminho relativo a partir da pasta public */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+.input-container1 {
+    position: absolute;
+    bottom: 20%;
+    left: 37%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+input {
+    font-family: "Gagalin" sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-style: dashed;
+    background-color: #f0f0f000;
+}
+
+input::placeholder {
+    text-align: center;
+}

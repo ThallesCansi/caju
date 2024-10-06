@@ -1,0 +1,14 @@
+.back-button {
+    font-family: "Gagalin", sans-serif;
+    font-size: 45px;
+    position: absolute;
+    bottom: 2%;
+    left: 12%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgba(255, 166, 0, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* Estilo do botão de aceleração */
+.accelerate-button {
+    font-family: "Orbitron", sans-serif;
+    background: linear-gradient(90deg, #1cb5e0, #000851);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(28, 181, 224, 0.5), 0 0 30px rgba(0, 8, 81, 0.3);
+    z-index: 2;
+}
+
+/* Efeito hover no botão de aceleração */
+.accelerate-button:hover {
+    background: linear-gradient(90deg, #000851, #1cb5e0);
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(28, 181, 224, 0.8), 0 0 50px rgba(0, 8, 81, 0.5);
+}
+
+/* Estilo do botão de Mute */
+.mute-button {
+    font-family: "Orbitron", sans-serif;
+    line-height: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro */
+    border: none;
+    border-radius: 50%; /* Botão bem redondo */
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 20px; /* Ajusta a posição no canto superior direito */
+    right: 20px; /* Distância da borda direita */
+    z-index: 3; /* Garante que fique visível acima de outros elementos */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mute-button:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    transform: scale(1.1);
+}

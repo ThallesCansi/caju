@@ -1,0 +1,9 @@
+.dialogue-box {
+    font-family: "Gagalin", sans-serif;
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    top: 10%;
+    text-align: center;
+    display: block;
+}
