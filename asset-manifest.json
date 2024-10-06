@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caju/static/css/main.2401c5dd.css",
-    "main.js": "/caju/static/js/main.5f3813b6.js",
+    "main.css": "/caju/static/css/main.3f201265.css",
+    "main.js": "/caju/static/js/main.5a3685e0.js",
     "static/js/208.bd703ce2.chunk.js": "/caju/static/js/208.bd703ce2.chunk.js",
     "static/js/293.50562e1c.chunk.js": "/caju/static/js/293.50562e1c.chunk.js",
     "static/js/917.e498784a.chunk.js": "/caju/static/js/917.e498784a.chunk.js",
@@ -11,9 +11,11 @@
     "static/js/160.1ef1840f.chunk.js": "/caju/static/js/160.1ef1840f.chunk.js",
     "static/js/23.1e91c18e.chunk.js": "/caju/static/js/23.1e91c18e.chunk.js",
     "static/js/453.1d55e081.chunk.js": "/caju/static/js/453.1d55e081.chunk.js",
+    "static/media/Story2.png": "/caju/static/media/Story2.ce581e7f4f13af945032.png",
+    "static/media/Story1.png": "/caju/static/media/Story1.750ecbd0aa0412c8b70c.png",
     "index.html": "/caju/index.html",
-    "main.2401c5dd.css.map": "/caju/static/css/main.2401c5dd.css.map",
-    "main.5f3813b6.js.map": "/caju/static/js/main.5f3813b6.js.map",
+    "main.3f201265.css.map": "/caju/static/css/main.3f201265.css.map",
+    "main.5a3685e0.js.map": "/caju/static/js/main.5a3685e0.js.map",
     "208.bd703ce2.chunk.js.map": "/caju/static/js/208.bd703ce2.chunk.js.map",
     "293.50562e1c.chunk.js.map": "/caju/static/js/293.50562e1c.chunk.js.map",
     "917.e498784a.chunk.js.map": "/caju/static/js/917.e498784a.chunk.js.map",
@@ -25,7 +27,7 @@
     "453.1d55e081.chunk.js.map": "/caju/static/js/453.1d55e081.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2401c5dd.css",
-    "static/js/main.5f3813b6.js"
+    "static/css/main.3f201265.css",
+    "static/js/main.5a3685e0.js"
   ]
 }
