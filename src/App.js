@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import StoryPage1 from "./pages/StoryPage1"; // Nova página da história
 import StoryPage2 from "./pages/StoryPage2"; // Nova página da história
@@ -33,14 +33,14 @@ function App() {
     // Função para iniciar a jornada e alterar a página
     const handleStartJourney = () => {
         setIsJourneyCompleted(true); // Define que a jornada foi completada
-        window.location.href = "/caju/story1"; // Navega para a primeira página da história
+        window.location.href = "/#/caju/story1"; // Navega para a primeira página da história
     };
 
     return (
         <Router>
             <Routes>
                 {/* Rota para a HomePage */}
-                <Route path="/caju/" element={<HomePage onStartJourney={handleStartJourney} />} />
+                <Route path="/" element={<HomePage onStartJourney={handleStartJourney} />} />
 
                 {/* Rota para a primeira página da história (depois da jornada) */}
                 <Route path="/caju/story1" element={<StoryPage1 />} />
