@@ -12,21 +12,21 @@ function App() {
     // Função para iniciar a jornada e alterar a página
     const handleStartJourney = () => {
         setIsJourneyCompleted(true); // Define que a jornada foi completada
-        window.location.href = "/story1"; // Navega para a primeira página da história
+        window.location.href = "/caju/story1"; // Navega para a primeira página da história
     };
 
     return (
         <Router>
             <Routes>
                 {/* Rota para a HomePage */}
-                <Route path="/" element={<HomePage onStartJourney={handleStartJourney} />} />
+                <Route path="/caju/" element={<HomePage onStartJourney={handleStartJourney} />} />
 
                 {/* Rota para a primeira página da história (depois da jornada) */}
-                <Route path="/story1" element={<StoryPage1 />} />
-                <Route path="/story2" element={<StoryPage2 />} />
+                <Route path="/caju/story1" element={<StoryPage1 />} />
+                <Route path="/caju/story2" element={<StoryPage2 />} />
 
                 {/* Exemplo: Se ainda precisar da ScratchPage */}
-                <Route path="/scratch" element={<ScratchPage />} />
+                <Route path="/caju/scratch" element={<ScratchPage />} />
             </Routes>
         </Router>
     );

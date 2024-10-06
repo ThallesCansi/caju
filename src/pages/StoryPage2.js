@@ -16,7 +16,7 @@ export default function StoryPage2() {
     };
 
     const handleBack = () => {
-        navigate("/story1");
+        navigate("/caju/story1");
     };
 
     return (

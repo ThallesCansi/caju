@@ -11,7 +11,7 @@ export default function StoryPage1() {
 
     const handleNavigation = () => {
         const name = nickname || "Caju";
-        navigate("/story2", { state: { nickname: name } });
+        navigate("/caju/story2", { state: { nickname: name } });
     };
 
     return (
